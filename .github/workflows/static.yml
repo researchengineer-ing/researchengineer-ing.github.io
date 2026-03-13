@@ -1,4 +1,4 @@
-# Workflow for deploying static content to GitHub Pages with custom domain
+# Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
 on:
@@ -31,9 +31,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Create CNAME for custom domain
-        run: echo "ml-re.github.io" > CNAME
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
