@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Variational Inference from First Principles",
+    "file": "variational-inference.md",
+    "tags": ["variational-inference", "ELBO", "probabilistic-models", "PMML"],
+    "date": "2026-03-10",
+    "pillar": "foundations"
+  }
+]
